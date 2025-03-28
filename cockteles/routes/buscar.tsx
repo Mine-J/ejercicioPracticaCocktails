@@ -23,7 +23,7 @@ export const handler: Handlers = {
 };
 
 const PageBuscador = (props: PageProps<data>) => {
-    console.log(props.data.drinks)
+    
     return (
       <div class="pagina">
         {props.data.name ? (
